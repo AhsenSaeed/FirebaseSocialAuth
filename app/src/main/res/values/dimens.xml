@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    Custom Material Dialog dimens-->
+    <dimen name="custom_material_dialog_margin_top">25dp</dimen>
+    <dimen name="custom_material_dialog_margin_start">25dp</dimen>
+    <dimen name="custom_material_dialog_margin_end">25dp</dimen>
+
+</resources>

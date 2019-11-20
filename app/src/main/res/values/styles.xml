@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.MaterialThemeBuilder" parent="Widget.MaterialComponents.NavigationView">
+        <item name="insetForeground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:elevation" tools:targetApi="lollipop">0dp</item>
+        <item name="android:itemTextAppearance">?attr/textAppearanceBody2</item>
+        <item name="itemTextColor">@color/color_on_surface_emphasis_medium</item>
+        <item name="itemIconTint">@color/color_on_surface_emphasis_medium</item>
+    </style>
+
+</resources>

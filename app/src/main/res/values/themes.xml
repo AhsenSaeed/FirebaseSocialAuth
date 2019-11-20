@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.FirebaseSocialAuth.DayNight" parent="Theme.FirebaseSocialAuth" />
+
+    <style name="Theme.FirebaseSocialAuth" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorSecondaryVariant">@color/color_secondary_variant</item>
+
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorPrimarySurfaceVariant">?attr/colorPrimaryVariant</item>
+        <item name="colorError">@color/color_error</item>
+
+        <item name="scrimBackground">@color/reply_white_50_alpha_060</item>
+        <item name="android:statusBarColor">@color/reply_blue_50_alpha_060</item>
+        <item name="android:navigationBarColor">@color/nav_bar</item>
+
+        <!--        <item name="colorControlLight">@color/color_on_primary_surface</item>-->
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <item name="colorOnSecondary">@color/color_on_secondary</item>
+        <item name="colorOnBackground">@color/color_on_background</item>
+        <item name="colorOnError">@color/color_on_error</item>
+        <item name="colorOnSurface">@color/color_on_surface</item>
+
+        <!--Material shape attributes-->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.MyTheme.SmallComponent
+        </item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MyTheme.MediumComponent
+        </item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MyTheme.LargeComponent
+        </item>
+
+        <!--Typography-->
+        <item name="textAppearanceHeadline2">@style/TextAppearance.MyTheme.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.MyTheme.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.MyTheme.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.MyTheme.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.MyTheme.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.MyTheme.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.MyTheme.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.MyTheme.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.MyTheme.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.MyTheme.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.MyTheme.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.MyTheme.Overline</item>
+
+        <item name="emphasisHighAlpha">0.90</item>
+        <item name="emphasisMediumAlpha">0.60</item>
+        <item name="emphasisDisabledAlpha">0.38</item>
+
+        <item name="bottomAppBarStyle">
+            @style/Widget.MaterialComponents.BottomAppBar.PrimarySurface
+        </item>
+
+        <item name="bottomSheetStyle">@style/Widget.MaterialComponents.BottomSheet.Modal</item>
+        <item name="navigationViewStyle">@style/Base.MaterialThemeBuilder</item>
+
+        <!--System/Platform attributes-->
+        <item name="android:windowBackground">?android:colorBackground</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+
+        <!--Material dialog settings-->
+        <item name="md_corner_radius">16dp</item>
+        <item name="md_font_title">@font/work_sans_semibold</item>
+        <item name="md_font_body">@font/work_sans</item>
+        <item name="md_font_button">@font/work_sans_medium</item>
+        <item name="md_color_title">@color/color_on_surface_emphasis_high</item>
+        <item name="md_color_content">@color/color_on_surface_emphasis_medium</item>
+        <item name="md_color_button_text">@color/color_on_surface_emphasis_high</item>
+
+    </style>
+
+</resources>

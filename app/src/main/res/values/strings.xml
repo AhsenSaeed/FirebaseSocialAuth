@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FirebaseSocialAuthentication</string>
+
+
+    <!--    Facebook login credentials-->
+    <string name="facebook_app_id">41*****************88</string>
+    // change it with your your facebook app id
+    <string name="fb_login_protocol_scheme">fb41******************88</string>
+    // change it with your facebook protocol scheme
+    <string name="welcome_back">Welcome back!</string>
+    <string name="log_into_your_existing_account">Log in to your account</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="github">GitHub</string>
+    <string name="google">Google</string>
+    <string name="forgot_about">forgot about</string>
+    <string name="previous_login">PREVIOUS LOGIN ?</string>
+
+    <string name="internet_not_working">Uh..oh… We\'re unable proceed, its seems like your internet connection is broke or maybe limited. Please check it and try again.</string>
+    <string name="cancel">Cancel</string>
+    <string name="try_again">Try Again</string>
+    <string name="limited_internet_connection">Limited Internet Connection</string>
+    <string name="auth_user_collision_message">It seems like %1$s is already linked with the following login providers. Please select any of following provider in order to login with your previous information.</string>
+    <string name="user_collision">User Collision</string>
+    <string name="select">Select</string>
+    <string name="operation_cancelled">Operation Cancelled</string>
+    <string name="operation_cancelled_content">It seems like you cancel the on-going operation. You can restart the process by simply clicking Try Again.</string>
+    <string name="logout">Logout</string>
+</resources>

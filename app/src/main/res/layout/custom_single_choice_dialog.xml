@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/customSingleChoiceDialogTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/custom_material_dialog_margin_start"
+        android:layout_marginTop="@dimen/custom_material_dialog_margin_top"
+        android:layout_marginEnd="@dimen/custom_material_dialog_margin_end"
+        android:text="@string/user_collision"
+        android:textAppearance="?textAppearanceHeadline6" />
+
+    <TextView
+        android:id="@+id/customSingleChoiceDialogContentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/custom_material_dialog_margin_start"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/custom_material_dialog_margin_end"
+        android:text="@string/auth_user_collision_message"
+        android:textAppearance="?textAppearanceBody2" />
+
+    <RadioGroup
+        android:id="@+id/customSingleChoiceDialogRadioGroup"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/custom_material_dialog_margin_start"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="@dimen/custom_material_dialog_margin_end" />
+
+    <ImageView
+        android:id="@+id/customSimpleDialogContentDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/md_divider_dark_theme"
+        android:contentDescription="@null"
+        android:layout_marginTop="10dp"
+
+        app:backgroundTint="@color/color_on_surface_divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/customSingleChoiceDialogNegativeTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textAppearance="?textAppearanceOverline"
+            android:visibility="gone"
+            tools:text="@string/cancel" />
+
+        <ImageView
+            android:id="@+id/customSingleChoiceDialogActionButtonDivider"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/md_divider_dark_theme"
+            android:contentDescription="@null"
+            android:visibility="gone"
+            app:backgroundTint="@color/color_on_surface_divider" />
+
+        <TextView
+            android:id="@+id/customSingleChoiceDialogPositiveTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text="@string/try_again"
+            android:textAppearance="?textAppearanceOverline" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

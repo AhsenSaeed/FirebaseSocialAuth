@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ShapeAppearance.MyTheme.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+<!--        <item name="cornerSize">@dimen/dev_meet_dev_small_component_corner_radius</item>-->
+    </style>
+
+    <!--Shape Appearance for medium components like cards, alert dialogs-->
+    <style name="ShapeAppearance.MyTheme.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+<!--        <item name="cornerSize">@dimen/dev_meet_dev_medium_component_corner_radius</item>-->
+    </style>
+
+    <!--Shape Appearance for large components like side and bottom navigation drawers-->
+    <style name="ShapeAppearance.MyTheme.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+<!--        <item name="cornerSize">@dimen/dev_meet_dev_large_component_corner_radius</item>-->
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Reply.MediumComponent.Marked" parent="">
+        <item name="cornerSizeTopLeft">@dimen/dev_meet_dev_small_component_corner_radius</item>
+    </style>
+
+    <dimen name="dev_meet_dev_small_component_corner_radius">24dp</dimen>
+    <dimen name="dev_meet_dev_medium_component_corner_radius">0dp</dimen>
+    <dimen name="dev_meet_dev_large_component_corner_radius">12dp</dimen>
+
+</resources>
